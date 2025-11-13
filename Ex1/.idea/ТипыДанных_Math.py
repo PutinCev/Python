@@ -1,5 +1,5 @@
 import math
-from tokenize import String
+
 
 # Кратчайшее расстояние от спасателя до кромки воды, 1 (в ярдах)
 d1 = float(input('Введите кратчайшее расстояние от спасателя до кромки воды, 1 (в ярдах)'))
@@ -18,7 +18,7 @@ x=d1*math.tan(theta1*0.0174533)
 
 d1 = d1*3
 h=h*3;
-VSand=VSand*1,46667
+VSand=VSand*1.46667
 
 L1 = math.sqrt(pow(x, 2) + pow(d1, 2))
 L2 = math.sqrt(pow((h-x), 2) + pow(d2, 2))
